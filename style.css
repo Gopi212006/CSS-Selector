@@ -1,0 +1,85 @@
+  
+  /*   Universal selector */
+*{
+    font-family: sans-serif;
+    font-style: italic;
+    
+}
+
+/* simple selector */
+h1{
+    color: #AD49E1;
+  
+}
+
+
+h2{
+   color: #41B3A2;
+}
+
+/*  Child Selector*/
+
+.parent>li{
+   color: brown;
+}
+
+.parent1>li{
+  color: blue;
+}
+
+.parent2>li>h4{
+  color: #CD5C08 ;
+}
+
+
+.parent3>li{
+  color: #4A249D;
+}
+
+.parent4>li{
+  color: #1F316F;
+}
+
+.parent5>li{
+  color: rgb(0, 255, 13);
+}
+
+/* Sibling selecor */
+
+.parent2~li{
+  color: #399918;
+}
+
+/*  descendent selector */
+
+.parent3>ol li{
+  color:#800000;
+}
+
+.parent2>ol li{
+  color:#180161;
+}
+
+.parent2 li{
+  color:#F9E400 ;
+}
+
+/*  Id selector*/
+
+#parent6{
+  color: blueviolet;
+}
+
+
+
+/* Class selector */
+
+.parent7{
+  color: #FF9100;
+}
+
+/*  Adjustant selector  */
+
+ .parent2 li+li{
+ color:#F2613F;
+ }
